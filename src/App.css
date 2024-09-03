@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+body{
+   font-family: "SUSE", sans-serif;
+}
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #dbdcef;
+   border-right-color: #474bff;
+   animation: spinner-d3wgkg 1s infinite linear;
+}
+
+@keyframes spinner-d3wgkg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+.header{
+   position: fixed;
+    text-align: center;
+    border-bottom: 2px solid rgba(141, 141, 237, 0.308);
+}
+
+.container{
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.tags{
+color: blue;
+text-decoration: underline;
+margin-right: 20px;
+}
+.author{
+   font-style: italic;
+}
+.category{
+ 
+   text-decoration: underline;
+   font-weight: 700;
+}
+.pagination{
+   margin-top: 20px;
+   border-top: 2px solid rgba(141, 141, 237, 0.308);
+display: flex;
+align-items: center ;
+justify-content: space-evenly;
+gap: 200px;
+
+}
+.spiner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40%;
+
+}
+.button{
+   margin-left: 20px;
+}
