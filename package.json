@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/divyansh2222/context.git",
+  "homepage": "https://github.com/divyansh2222/context",
   "name": "context-api",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh -pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -15,6 +15,7 @@
   "dependencies": {
     "build": "^0.1.4",
     "gh": "^2.8.9",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
