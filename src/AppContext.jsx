@@ -19,7 +19,7 @@ const [totalPages,settotal]=useState(null)
     try {
     const res= await fetch(Apiurl);
     const data= await res.json();
-     console.log(data)
+  
     setpage(data.page)
     setpost(data.posts)
     settotal(data.totalPages)
